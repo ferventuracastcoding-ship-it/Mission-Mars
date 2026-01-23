@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mission Mars</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <section>
+      <header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Mission Mars</label>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Space Tourism</a></li>
+          <li><a href="#">Robotics & AI</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </header>
+    </section>
+    
+    <section id="space-tourism">
+      <div id="gallery">
+        <li>Olympus Mons Viewpoints</li>
+        <li>Valles Marineris Tours</li>
+      </div>
+    </section>
+      
+    <section id="robotics-ai">
+      <h1>Robotics & AI</h1>
+    </section>
+      
+    <section id="economy">
+      <h1>Economy</h1>
+    </section>
+      
+    <section id="contact">
+      <div class="contact-container">
+    <h1>Contact Mission Control</h1>
+    <p>Send a transmission to our Mars operations team.</p>
+
+    <form class="contact-form">
+      <div class="input-group">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" placeholder="John Carter" required>
+      </div>
+
+      <div class="input-group">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="john@earth.com" required>
+      </div>
+
+      <div class="input-group">
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" placeholder="Mars Tourism Inquiry">
+      </div>
+
+      <div class="input-group">
+        <label for="message">Message</label>
+        <textarea id="message" rows="5" placeholder="Your message to Mission Control..." required></textarea>
+      </div>
+
+      <button type="submit">Send Transmission</button>
+    </form>
+  </div>
+    </section>
+      
+    <section id="footer">
+      <p>Copyright &copy; 2026</p>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>
